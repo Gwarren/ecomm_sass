@@ -8,7 +8,8 @@ gem 'sqlite3', group: [:development, :test]
 #use postgresql as the database for production
 gem 'bootstrap-sass', '3.3.3'
 #Use bootstrap for style
-
+gem 'font-awesome-sass', '4.3.0'
+#use fontawesome for icons
 group :production do
   gem 'pg'
   gem 'rails_12factor'
